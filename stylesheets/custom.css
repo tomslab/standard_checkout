@@ -1,0 +1,15 @@
+.help-block {
+	margin-top: 0;
+	margin-bottom: 5px;
+}
+
+.form-control-feedback {
+	position: relative !important;
+	top: -46px;
+	float: right;
+	margin-bottom: -46px;
+}
+
+#cardName {
+	text-transform: uppercase;
+}

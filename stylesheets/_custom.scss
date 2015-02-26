@@ -1,0 +1,32 @@
+.help-block {
+	margin-top: 0;
+	margin-bottom: 5px;
+}
+
+.form-control-feedback {
+	position: relative !important;
+	top: -45px;
+	/* right: 0px; */
+	float: right;
+	background: yellow;
+}
+
+#cardName {
+	text-transform: uppercase;
+}
+
+#merchandise {
+
+	h3 {
+		margin-top: 0px;
+	}
+
+	h4 {
+		color: $brand-primary;
+	}
+
+	.pull-right {
+		color: $brand-success;
+	}
+
+}

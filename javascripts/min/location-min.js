@@ -1,0 +1,1 @@
+function getLocation(){navigator.geolocation?navigator.geolocation.getCurrentPosition(showPosition):x.innerHTML="Geolocation is not supported by this browser."}function showPosition(o){document.location="click_collect.php?store_list_choice=dist&lat="+o.coords.latitude+"&lon="+o.coords.longitude}var x=document.getElementById("location_test");
